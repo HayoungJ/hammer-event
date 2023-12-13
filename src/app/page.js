@@ -46,9 +46,10 @@ export default function Home() {
           <p className="lang">1</p>일 경우, 띄어쓰기 및 단위 없이 작성합니다.
           (ex. 1213)
           <br />
-          4. 알아낸 정답은 주소창에 hammer.netlify.app/정답 형태로 입력합니다.
+          4. 알아낸 정답은 주소창에 hammer-event.netlify.app/정답 형태로
+          입력합니다.
           <br />
-          예를 들어 정답이 해머라면, hammer.netlify.app/goaj를 입력하시면
+          예를 들어 정답이 해머라면, hammer-event.netlify.app/goaj를 입력하시면
           됩니다.
         </div>
         자 그럼, 이제 시작하세요. 문제 말인가요? 문제라면... 이미 내지
