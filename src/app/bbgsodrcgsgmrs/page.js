@@ -34,7 +34,7 @@ export default function Page() {
           2.{" "}
           <a
             className={styles.link}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSf8hfRW1tILyYjzyd3LzcOEMlXOpccWHFIU6Le3NzFb466OCw/viewform"
+            href="https://naver.me/FepIIV3A"
             target="_blank"
           >
             링크
