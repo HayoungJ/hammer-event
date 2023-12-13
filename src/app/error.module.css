@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Hardworking";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_06@1.0/Hardworking.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("/images/letter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Hardworking";
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "BMEuljiro10yearslater";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/BMEuljiro10yearslater.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/images/wall2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "BMEuljiro10yearslater";
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: 600;
+  color: red;
+}
