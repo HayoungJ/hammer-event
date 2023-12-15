@@ -11,7 +11,7 @@ export default function Page() {
   useEffect(() => {
     const randomColor = Math.floor(Math.random() * 6 + 1);
     setColor(randomColor);
-  });
+  }, []);
 
   return (
     <main className={styles.main}>
