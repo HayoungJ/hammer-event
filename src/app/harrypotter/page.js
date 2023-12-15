@@ -9,7 +9,7 @@ export default function Page() {
   const [color, setColor] = useState();
 
   useEffect(() => {
-    const randomColor = Math.floor(Math.random() * 6 + 1);
+    let randomColor = Math.floor(Math.random() * 6);
     setColor(randomColor);
   }, []);
 
