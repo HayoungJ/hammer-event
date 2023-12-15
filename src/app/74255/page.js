@@ -12,6 +12,7 @@ export default function Page() {
         <br />
         걱정마세요, 여기에 머무르는 것도 꽤 재밌을테니까.
         <br />
+        <p className="lang">A</p>
       </content>
       <aside className="credit">
         <p>
